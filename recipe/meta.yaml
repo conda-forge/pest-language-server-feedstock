@@ -1,5 +1,5 @@
 {% set name = "pest-language-server" %}
-{% set version = "0.3.11" %}
+{% set version = "0.13.2" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/pest-parser/pest-ide-tools/archive/v{{ version }}.tar.gz
-  sha256: 6e3327c78b62aa12e4e2884449021e2915a97ccef36d1d907bbe669dbb1aaf5b
+  sha256: 8c1b4def059a7131f3f2857c3cc9403efe68f2e0f02a7e93a7a279572253ef15
 
 build:
   number: 0
